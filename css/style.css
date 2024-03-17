@@ -73,15 +73,12 @@ p {
 }
 
 a {
-    color: #007bff;
-    /* Blue color for links */
+    color: #ff99cc;
     text-decoration: none;
-    /* Remove default underline */
 }
 
 a:hover {
     text-decoration: underline;
-    /* Underline on hover */
 }
 
 /* Media Queries */

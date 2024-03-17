@@ -1,90 +1,90 @@
-    body {
-        font-family: 'Montserrat', sans-serif;
-        background-color: #f7f7f7;
-        color: #333;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-    }
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
-    header {
-        background-color: #e6e6e6;
-        padding: 20px;
-        text-align: center;
-    }
+header {
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+}
 
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.highlights ul li::before {
+    content: "•";
+    color: #ff99cc;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.relevant_courses ul {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+}
+
+.relevant_projects ul {
+    margin-left: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
     h1 {
-        font-size: 28px;
-        margin-bottom: 5px;
+        font-size: 24px;
     }
 
     .contact {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-
-    section {
-        background-color: #fff;
-        padding: 20px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-    }
-
-    h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-        color: #333;
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    li {
-        margin-bottom: 8px;
-    }
-
-    p {
         font-size: 16px;
     }
 
-    .highlights ul li::before {
-        content: "•";
-        color: #ff99cc;
-        display: inline-block;
-        width: 1em;
-        margin-left: -1em;
+    h2 {
+        font-size: 20px;
     }
 
     .relevant_courses ul {
-        -webkit-columns: 2;
-        -moz-columns: 2;
-        columns: 2;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        columns: 1;
     }
-
-    .relevant_projects ul {
-        margin-left: 20px;
-    }
-
-    /* Media Queries */
-    @media only screen and (max-width: 768px) {
-        h1 {
-            font-size: 24px;
-        }
-
-        .contact {
-            font-size: 16px;
-        }
-
-        h2 {
-            font-size: 20px;
-        }
-
-        .relevant_courses ul {
-            -webkit-columns: 1;
-            -moz-columns: 1;
-            columns: 1;
-        }
-    }
+}

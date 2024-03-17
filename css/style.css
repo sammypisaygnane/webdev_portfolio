@@ -68,6 +68,10 @@ p {
     margin-left: 20px;
 }
 
+.experience ul {
+    margin-left: 20px;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 768px) {
     h1 {

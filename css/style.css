@@ -1,7 +1,28 @@
 /* style.css */
 
 body {
-    font: Verdana, Geneva, Tahoma, sans-serif;
-    width: max-content;
-    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.highlights,
+.education,
+.relevant_courses,
+.relevant_projects,
+.experience {
+    margin-bottom: 30px;
+}
+
+.project,
+.job {
+    margin-bottom: 10px;
 }
